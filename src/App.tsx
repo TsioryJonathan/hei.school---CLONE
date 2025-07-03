@@ -6,6 +6,7 @@ import JobProspects from "./components/JobProspects";
 import Navbar from "./components/Navbar";
 import Program from "./components/Program";
 import Team from "./components/Team";
+import Technologies from "./components/Technologies";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Domains />
       <Admission />
       <Program />
+      <Technologies />
     </div>
   );
 }

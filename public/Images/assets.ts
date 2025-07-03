@@ -19,6 +19,17 @@ import illustration from "./illustration.webp";
 import maskGroup1 from "./Mask-group-1.webp";
 import maskGroup2 from "./Mask-group-2.webp";
 import maskGroup3 from "./Mask-group-3.webp";
+import java from "./Java-150x150.png";
+import c from "./C-150x150.png";
+import python from "./python-150x150.png";
+import js from "./JS-150x150.png";
+import docker from "./docker-300x77.png";
+import serverless from "./serverless.png";
+import react from "./react.png";
+import nextjs from "./next.png";
+import openapi from "./openapi.png";
+import ts from "./TS-150x150.png";
+import aws from "./aws.png";
 
 export const assets = {
   logo,
@@ -42,4 +53,15 @@ export const assets = {
   maskGroup1,
   maskGroup2,
   maskGroup3,
+  java,
+  c,
+  python,
+  aws,
+  ts,
+  js,
+  react,
+  serverless,
+  nextjs,
+  docker,
+  openapi,
 };
