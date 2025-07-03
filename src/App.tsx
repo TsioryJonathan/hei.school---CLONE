@@ -1,4 +1,5 @@
 import About from "./components/About";
+import Domains from "./components/Domains";
 import Hero from "./components/Hero";
 import JobProspects from "./components/JobProspects";
 import Navbar from "./components/Navbar";
@@ -13,6 +14,7 @@ function App() {
       <About />
       <Team />
       <JobProspects />
+      <Domains />
     </div>
   );
 }

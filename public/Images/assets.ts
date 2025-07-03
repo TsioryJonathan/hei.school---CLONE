@@ -12,6 +12,10 @@ import Tahina from "./Tahina-OK-e1716502943928-150x150.png";
 import Mirado from "./Mirado-150x150.webp";
 import Parison from "./Parison-e1716502987165-150x150.png";
 import debouché from "./Debouché.webp";
+import cloud from "./Cloud-et-cybersecurite_Plan-de-travail-1-150x150.png";
+import ia from "./Intelligence-artificielle_Plan-de-travail-1-150x150.png";
+import il from "./Ingenierie-logicielle_Plan-de-travail-1-1-150x150.png";
+
 export const assets = {
   logo,
   banner1,
@@ -27,4 +31,7 @@ export const assets = {
   JulienRajerison,
   Yannick,
   debouché,
+  cloud,
+  ia,
+  il,
 };
