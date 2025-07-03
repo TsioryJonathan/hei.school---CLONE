@@ -5,15 +5,15 @@ const navLinks = [
   },
   {
     label: "Actualités",
-    href: "/",
+    href: "/actualites",
   },
   {
     label: "Bourse d'études",
-    href: "/",
+    href: "/bourse-detudes",
   },
   {
     label: "Inscription",
-    href: "/",
+    href: "/inscription",
   },
 ];
 
