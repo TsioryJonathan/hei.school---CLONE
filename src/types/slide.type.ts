@@ -1,6 +1,6 @@
 export type HeroSlide = {
-  id?: number;
+  id?: number | string | undefined;
   title?: string;
-  description: string[] | string;
+  description: string[];
   imageUrl: string;
 };
