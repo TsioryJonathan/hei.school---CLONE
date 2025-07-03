@@ -4,7 +4,7 @@ import AboutCard from "./AboutCard";
 
 export default function About() {
   return (
-    <section className="w-screen min-h-screen flex flex-row px-14 pb-10 md:pb-0">
+    <section className="flex pb-10">
       <div className=" hidden md:flex items-center justify-center w-1/2">
         <img
           src={assets.aboutImg}

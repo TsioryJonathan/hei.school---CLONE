@@ -14,12 +14,12 @@ export default function Footer() {
       </div>
 
       <nav className="flex flex-col md:flex-row gap-6 ">
-        <div className="flex flex-col gap-4 md:w-1/4 text-sm font-light">
+        <div className="flex flex-col gap-4 md:w-1/4 text-[16px] font-light">
           <p>Formation habilitée par l’Etat suivant le système LMD</p>
           <p>Habilitation MESupRes n°31309/2023</p>
         </div>
 
-        <div className="flex flex-col gap-4 md:w-1/4 text-sm font-light">
+        <div className="flex flex-col gap-4 md:w-1/4 text-[16px] font-light">
           <h2 className="text-xl font-bold text-white">Adresse</h2>
           <ul className="flex flex-col gap-2 items-start">
             {[
@@ -34,7 +34,7 @@ export default function Footer() {
           </ul>
         </div>
 
-        <div className="flex flex-col gap-4 md:w-1/4 text-sm font-light">
+        <div className="flex flex-col gap-4 md:w-1/4 text-[16px] font-light">
           <h2 className="text-xl font-bold text-white">Navigation</h2>
 
           <ul className="flex flex-col gap-4">
@@ -42,7 +42,7 @@ export default function Footer() {
               <li>
                 <a
                   href={link.href}
-                  className={`${
+                  className={`hover:text-secondary transition-colors duration-100 ease-in-out${
                     link.label == "Accueil"
                       ? "text-secondary font-semibold"
                       : ""
@@ -55,7 +55,7 @@ export default function Footer() {
           </ul>
         </div>
 
-        <div className="flex flex-col gap-4 md:w-1/4 text-sm font-light">
+        <div className="flex flex-col gap-4 md:w-1/4 text-[16px] font-light">
           <h2 className="text-xl font-bold text-white">Réseaux Sociaux</h2>
 
           <div className="flex gap-4">

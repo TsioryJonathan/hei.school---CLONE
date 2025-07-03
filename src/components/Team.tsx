@@ -9,27 +9,25 @@ import {
 import TeamCard from "./TeamCard";
 import Autoplay from "embla-carousel-autoplay";
 import React from "react";
+import Section from "./Section";
 
 export default function Team() {
   const plugin = React.useRef(
     Autoplay({ delay: 2000, stopOnInteraction: true })
   );
   return (
-    <section className="w-screen min-h-screen bg-[#6586C7] justify-center items-center py-10 px-10 md:px-30 flex flex-col gap-10 ">
-      <div className="flex flex-col gap-10 items-center justify-center">
-        <h2 className="heading text-3xl md:text-5xl font-semibold text-white text-center">
-          L'équipe pédagogique
-        </h2>
-        <p className="text-white text-center text-sm md:text-lg font-light">
-          Notre équipe pédagogique se compose d’experts nationaux et
+    <Section
+      bgColor="#6586c7"
+      title="L'équipe pédagogique"
+      description="Notre équipe pédagogique se compose d’experts nationaux et
           internationaux de l’informatique, de la cybersécurité, de
           l’intelligence artificielle, dont un ingénieur chez Google. Ils sont
           passionnés par l’informatique et sont engagés vers l’excellence. Nous
           sommes conscients que cette équipe est la pierre angulaire de
           l’employabilité de nos étudiants, elle a été soigneusement
-          sélectionnée.
-        </p>
-      </div>
+          sélectionnée."
+      className="text-white md:px-30! py-15"
+    >
       <div className="w-full px-10">
         <Carousel
           opts={{ loop: true, align: "center" }}
@@ -37,7 +35,7 @@ export default function Team() {
         >
           <CarouselContent>
             {teamData.map(({ name, description, imageUrl, location }) => (
-              <CarouselItem className="md:basis-1/2 lg:basis-1/3 flex items-center justify-center">
+              <CarouselItem className="md:basis-1/2 lg:basis-1/3 flex items-center justify-center pointer-events-none">
                 <TeamCard
                   name={name}
                   description={description}
@@ -48,10 +46,10 @@ export default function Team() {
               </CarouselItem>
             ))}
           </CarouselContent>
-          <CarouselPrevious className="cursor-pointer" />
-          <CarouselNext className="cursor-pointer" />
+          <CarouselPrevious className="cursor-pointer text-black font-bold" />
+          <CarouselNext className="cursor-pointer text-black font-bold" />
         </Carousel>
       </div>
-    </section>
+    </Section>
   );
 }

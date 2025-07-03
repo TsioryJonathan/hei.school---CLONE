@@ -11,9 +11,9 @@ function CustomButton({
 }) {
   return (
     <Button
-      className={`bg-secondary px-3 py-4
-        md:px-5 md:py-8 rounded-[2px] border-none 
-        md:text-xl outline-none hover:bg-secondary/90 hover:text-primary cursor-pointer font-semibold ${className}`}
+      className={`bg-secondary px-3 py-1
+        rounded-[2px] border-none 
+        md:text-[16px] outline-none hover:bg-secondary/90 hover:text-primary cursor-pointer font-bold ${className}`}
       variant="outline"
       onClick={onClick}
     >

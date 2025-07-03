@@ -1,5 +1,6 @@
 import { assets } from "@/assets/images/assets";
 
+
 export default function JobProspects() {
   return (
     <section className="w-full min-h-screen py-10 px-10 md:px-30 flex items-center justify-center gap-10">

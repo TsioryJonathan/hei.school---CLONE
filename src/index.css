@@ -161,19 +161,3 @@
 .swiper-button-prev:hover {
   color: rgba(0, 0, 0, 0.788) !important;
 }
-
-.mySwiper {
-  position: relative !important;
-}
-
-.mySwiper .swiper-button-prev {
-  left: -2rem !important;
-  top: 50% !important;
-  transform: translateY(-50%) !important;
-}
-
-.mySwiper .swiper-button-next {
-  right: -2rem !important;
-  top: 50% !important;
-  transform: translateY(-50%) !important;
-}

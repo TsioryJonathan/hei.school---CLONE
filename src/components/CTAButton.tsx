@@ -21,12 +21,12 @@ export default function CTAButton() {
       {buttonContent.map(({ label, href }, id) => (
         <CustomButton
           className={`
-            py-6 rounded-xs
+            md:py-7 py-6 font-semibold px-2 text-md rounded-[4px] md:text-[20px]! md:px-5 md:min-w-[230px]
             ${
               id == 0
-                ? "bg-gray-100 text-primary font-bold hover:bg-white"
+                ? "bg-gray-100 text-primary hover:bg-white"
                 : id == 1
-                ? "bg-secondary text-white"
+                ? "bg-secondary text-white hover:text-text"
                 : "bg-primary text-white hover:bg-primary/90 hover:text-white"
             }`}
         >

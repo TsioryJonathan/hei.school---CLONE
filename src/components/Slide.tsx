@@ -14,7 +14,7 @@ export default function Slide({ title, description, imageUrl }: HeroSlide) {
       />
 
       <div className="flex flex-col items-center justify-between z-99 px-10 md:px-40 py-10 h-full">
-        <h2 className="heading font-bold md:text-7xl text-5xl text-white text-shadow-lg/10 text-center">
+        <h2 className="heading font-semibold md:text-7xl text-5xl text-white text-shadow-lg/10 text-center">
           Haute Ecole d'Informatique
         </h2>
 
@@ -22,7 +22,7 @@ export default function Slide({ title, description, imageUrl }: HeroSlide) {
           {description.map((text, index) => (
             <p
               key={index}
-              className="text-white text-sm md:text-xl md:font-semibold font-light text-center text-shadow-lg"
+              className="text-white text-sm md:text-xl md:font-normal font-light text-center text-shadow-lg"
             >
               {text}
             </p>

@@ -8,7 +8,7 @@ import { Menu, X } from "lucide-react";
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <header className="w-screen h-25 bg-primary text-white">
+    <header className="w-screen h-[106.64px] bg-primary text-white">
       <div className="mx-auto h-full flex items-center justify-between px-5 md:px-30 py-3">
         <img src={assets.logo} alt="Logo HEI" className="w-24 h-18" />
         {/* Desktop nav */}
@@ -18,7 +18,7 @@ function Navbar() {
               <li key={label}>
                 <a
                   href={href}
-                  className={`font-[500] text-xl hover:text-secondary transition-colors ${
+                  className={`font-[500] text-[18.7px] hover:text-secondary transition-colors ${
                     label == "Accueil" ? "text-secondary" : ""
                   }`}
                 >
@@ -27,7 +27,9 @@ function Navbar() {
               </li>
             ))}
           </ul>
-          <CustomButton className="w-30 py-5 ">INTRANET</CustomButton>
+          <CustomButton className="w-[108px] h-[41px] ">
+            INTRANET
+          </CustomButton>
         </nav>
 
         {/* Mobile nav */}

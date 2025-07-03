@@ -12,7 +12,7 @@ import Technologies from "./components/Technologies";
 
 function App() {
   return (
-    <div className="overflow-x-hidden">
+    <div className="overflow-x-hidden h-fit">
       <Navbar />
 
       <Hero />

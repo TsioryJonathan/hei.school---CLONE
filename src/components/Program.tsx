@@ -9,7 +9,7 @@ export default function Program() {
           <img src={assets.illustration} alt="Illustration" />
         </div>
         <div className="flex flex-col md:items-start items-center md:w-[60%] text-primary gap-10">
-          <h2 className="heading text-5xl font-semibold ">
+          <h2 className="heading text-5xl font-semibold text-center ">
             Le programme pédagogique
           </h2>
 
