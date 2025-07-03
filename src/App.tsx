@@ -1,6 +1,7 @@
 import About from "./components/About";
 import Admission from "./components/Admission";
 import Domains from "./components/Domains";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import JobProspects from "./components/JobProspects";
 import Navbar from "./components/Navbar";
@@ -23,6 +24,8 @@ function App() {
       <Program />
       <Technologies />
       <Partner />
+
+      <Footer />
     </div>
   );
 }
