@@ -17,7 +17,7 @@ const buttonContent = [
 
 export default function CTAButton() {
   return (
-    <div className="flex flex-col md:flex-row justify-between md:w-full mt-10">
+    <div className="flex flex-col md:flex-row justify-between md:w-full mt-10 gap-4">
       {buttonContent.map(({ label, href }, id) => (
         <CustomButton
           className={`
