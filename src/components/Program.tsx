@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 
 export default function Program() {
   return (
-    <section className="w-screen min-h-screen justify-center items-center py-5 px-10 md:px-30 flex flex-col gap-10">
+    <section className="w-screen min-h-screen justify-center items-center py-20 px-10 md:px-30 flex flex-col gap-10">
       <div className="flex flex-col md:flex-row md:items-start justify-center items-center gap-10">
         <div className="md:w-[40%] w-full flex items-center justify-center">
           <img src={assets.illustration} alt="Illustration" />
