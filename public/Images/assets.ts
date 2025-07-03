@@ -15,6 +15,10 @@ import debouché from "./Debouché.webp";
 import cloud from "./Cloud-et-cybersecurite_Plan-de-travail-1-150x150.png";
 import ia from "./Intelligence-artificielle_Plan-de-travail-1-150x150.png";
 import il from "./Ingenierie-logicielle_Plan-de-travail-1-1-150x150.png";
+import illustration from "./illustration.webp";
+import maskGroup1 from "./Mask-group-1.webp";
+import maskGroup2 from "./Mask-group-2.webp";
+import maskGroup3 from "./Mask-group-3.webp";
 
 export const assets = {
   logo,
@@ -34,4 +38,8 @@ export const assets = {
   cloud,
   ia,
   il,
+  illustration,
+  maskGroup1,
+  maskGroup2,
+  maskGroup3,
 };

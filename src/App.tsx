@@ -4,6 +4,7 @@ import Domains from "./components/Domains";
 import Hero from "./components/Hero";
 import JobProspects from "./components/JobProspects";
 import Navbar from "./components/Navbar";
+import Program from "./components/Program";
 import Team from "./components/Team";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <JobProspects />
       <Domains />
       <Admission />
+      <Program />
     </div>
   );
 }
