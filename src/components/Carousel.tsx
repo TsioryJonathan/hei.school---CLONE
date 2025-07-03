@@ -1,8 +1,10 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination } from "swiper/modules";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
+
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import "swiper/css/autoplay";
 import Slide from "./Slide";
 
 export type slide = {
@@ -15,24 +17,20 @@ export type slide = {
 function Carousel({ slides }: { slides: slide[] }) {
   return (
     <Swiper
+      modules={[Navigation, Pagination, Autoplay]}
       slidesPerView={1}
       spaceBetween={0}
       navigation
       pagination={{ clickable: true }}
-      modules={[Navigation, Pagination]}
-      loop
       autoplay={{
-        delay: 3000,
+        delay: 6000,
+        disableOnInteraction: false,
       }}
+      loop
     >
-      {slides.map(({ id, title, description, imageUrl }) => (
-        <SwiperSlide key={id}>
-          <Slide
-            id={id}
-            title={title}
-            description={description}
-            imageUrl={imageUrl}
-          />
+      {slides.map((slide) => (
+        <SwiperSlide key={slide.id}>
+          <Slide {...slide} />
         </SwiperSlide>
       ))}
     </Swiper>

@@ -12,14 +12,15 @@ export const slides: slide[] = [
   {
     id: 2,
     description: [
-      "Une infrastructure de qualité et un programme pédagogique qui répond au besoin du marché pour l'employabilité de nos étudiants.",
+      `"L'éducation est l'arme la plus puissante pour changer le monde" selon Nelson Mandela.`,
+      `"L'éducation dans l'informatique est une arme très puissante pour lutter contre la pauvreté à Madagascar" selon HEI.C'est notre mission`,
     ],
     imageUrl: assets.banner2,
   },
   {
     id: 3,
     description: [
-      "Une infrastructure de qualité et un programme pédagogique qui répond au besoin du marché pour l'employabilité de nos étudiants.",
+      "Des entreprises partenaires et une équipe pédagogique et administrative qui travaille sans relache pour la montée en compétence de nos étudiants",
     ],
     imageUrl: assets.banner3,
   },

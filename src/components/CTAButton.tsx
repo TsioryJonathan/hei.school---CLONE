@@ -17,17 +17,17 @@ const buttonContent = [
 
 export default function CTAButton() {
   return (
-    <div className="flex flex-col md:flex-row gap-4">
+    <div className="flex flex-col md:flex-row justify-between md:w-full mt-10">
       {buttonContent.map(({ label, href }, id) => (
         <CustomButton
           className={`
             py-6 rounded-xs
             ${
               id == 0
-                ? "bg-white text-primary font-bold"
+                ? "bg-gray-100 text-primary font-bold hover:bg-white"
                 : id == 1
                 ? "bg-secondary text-white"
-                : "bg-primary text-white"
+                : "bg-primary text-white hover:bg-primary/90 hover:text-white"
             }`}
         >
           <a href={href}>{label}</a>
