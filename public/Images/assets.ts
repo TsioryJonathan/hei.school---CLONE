@@ -11,6 +11,7 @@ import Ryan from "./ryan-min-150x150.webp";
 import Tahina from "./Tahina-OK-e1716502943928-150x150.png";
 import Mirado from "./Mirado-150x150.webp";
 import Parison from "./Parison-e1716502987165-150x150.png";
+import debouché from "./Debouché.webp";
 export const assets = {
   logo,
   banner1,
@@ -25,4 +26,5 @@ export const assets = {
   JeanAime,
   JulienRajerison,
   Yannick,
+  debouché,
 };

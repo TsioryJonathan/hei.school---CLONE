@@ -15,7 +15,7 @@ export default function Team() {
     Autoplay({ delay: 2000, stopOnInteraction: true })
   );
   return (
-    <div className="w-screen min-h-screen bg-[#6586C7] justify-center items-center py-10 px-10 md:px-30 flex flex-col gap-10 ">
+    <section className="w-screen min-h-screen bg-[#6586C7] justify-center items-center py-10 px-10 md:px-30 flex flex-col gap-10 ">
       <div className="flex flex-col gap-10 items-center justify-center">
         <h2 className="heading text-3xl md:text-5xl font-semibold text-white text-center">
           L'équipe pédagogique
@@ -52,6 +52,6 @@ export default function Team() {
           <CarouselNext className="cursor-pointer" />
         </Carousel>
       </div>
-    </div>
+    </section>
   );
 }
