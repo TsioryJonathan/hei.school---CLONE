@@ -42,9 +42,9 @@ export default function Footer() {
               <li>
                 <a
                   href={link.href}
-                  className={`hover:text-secondary transition-colors duration-100 ease-in-out${
+                  className={`hover:text-secondary transition-colors duration-100 ease-in-out ${
                     link.label == "Accueil"
-                      ? "text-secondary font-semibold"
+                      ? "text-secondary! font-semibold"
                       : ""
                   }`}
                 >

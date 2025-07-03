@@ -10,10 +10,13 @@ function Navbar() {
   return (
     <header className="w-screen h-[106.64px] bg-primary text-white">
       <div className="mx-auto h-full flex items-center justify-between px-5 md:px-30 py-3">
-        <img src={assets.logo} alt="Logo HEI" className="w-24 h-18" />
+        <a href="https://hei.school">
+          <img src={assets.logo} alt="Logo HEI" className="w-24 h-18" />
+        </a>
+
         {/* Desktop nav */}
-        <nav className="hidden md:flex gap-4 items-center justify-center">
-          <ul className="flex gap-6">
+        <nav className="hidden md:flex gap-6 items-center justify-center">
+          <ul className="flex gap-8">
             {navLinks.map(({ label, href }) => (
               <li key={label}>
                 <a
@@ -27,9 +30,7 @@ function Navbar() {
               </li>
             ))}
           </ul>
-          <CustomButton className="w-[108px] h-[41px] ">
-            INTRANET
-          </CustomButton>
+          <CustomButton className="w-[108px] h-[41px] ">INTRANET</CustomButton>
         </nav>
 
         {/* Mobile nav */}
