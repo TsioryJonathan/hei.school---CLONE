@@ -12,8 +12,8 @@ export const slides: HeroSlide[] = [
   {
     id: 2,
     description: [
-      `"L'éducation est l'arme la plus puissante pour changer le monde" selon Nelson Mandela.`,
-      `"L'éducation dans l'informatique est une arme très puissante pour lutter contre la pauvreté à Madagascar" selon HEI.C'est notre mission`,
+      `« L'éducation est l'arme la plus puissante pour changer le monde » selon Nelson Mandela.`,
+      `« L'éducation dans l'informatique est une arme très puissante pour lutter contre la pauvreté à Madagascar" selon HEI. C'est notre mission »`,
     ],
     imageUrl: assets.banner2,
   },
