@@ -1,4 +1,4 @@
-import { assets } from "../../public/Images/assets";
+import { assets } from "@/assets/images/assets";
 
 export const partners: { name: string; logo: string; href: string }[] = [
   {
@@ -32,19 +32,18 @@ export const partners: { name: string; logo: string; href: string }[] = [
     href: "/",
   },
   {
-    name:"Numer",
-    logo:assets.numer,
+    name: "Numer",
+    logo: assets.numer,
     href: "https://numer.fr/",
-
-  }
-  ,{
-    name:"Etech",
-    logo:assets.etech,
+  },
+  {
+    name: "Etech",
+    logo: assets.etech,
     href: "https://etech.fr/",
   },
   {
-    name:"Bpartners",
-    logo:assets.bpart,
+    name: "Bpartners",
+    logo: assets.bpart,
     href: "https://bpartners.fr/",
-  }
+  },
 ];

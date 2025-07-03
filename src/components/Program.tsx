@@ -1,4 +1,4 @@
-import { assets } from "../../public/Images/assets";
+import { assets } from "@/assets/images/assets";
 import { Button } from "./ui/button";
 
 export default function Program() {

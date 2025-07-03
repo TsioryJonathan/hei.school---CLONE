@@ -1,4 +1,4 @@
-import { assets } from "../../public/Images/assets";
+import { assets } from "@/assets/images/assets";
 import type { HeroSlide } from "@/types/slide.type";
 
 export const slides: HeroSlide[] = [

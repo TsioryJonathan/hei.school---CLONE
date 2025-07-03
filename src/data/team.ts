@@ -1,5 +1,5 @@
 import type { teamType } from "@/types/team.type";
-import { assets } from "../../public/Images/assets";
+import { assets } from "@/assets/images/assets";
 
 export const teamData: teamType[] = [
   {

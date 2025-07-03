@@ -1,5 +1,5 @@
 import navLinks from "../constants/navLinks";
-import { assets } from "../../public/Images/assets";
+import { assets } from "@/assets/images/assets";
 
 import CustomButton from "./CustomButton";
 import { useState } from "react";

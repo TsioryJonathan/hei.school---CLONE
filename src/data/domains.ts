@@ -1,4 +1,4 @@
-import { assets } from "../../public/Images/assets";
+import { assets } from "@/assets/images/assets";
 
 export const domains = [
   {

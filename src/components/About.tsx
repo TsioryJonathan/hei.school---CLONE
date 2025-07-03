@@ -1,5 +1,5 @@
 import { aboutData } from "@/data/about";
-import { assets } from "../../public/Images/assets";
+import { assets } from "@/assets/images/assets";
 import AboutCard from "./AboutCard";
 
 export default function About() {
