@@ -1,7 +1,7 @@
-import type { slide } from "@/components/Carousel";
 import { assets } from "../../public/Images/assets";
+import type { HeroSlide } from "@/types/slide.type";
 
-export const slides: slide[] = [
+export const slides: HeroSlide[] = [
   {
     id: 1,
     description: [

@@ -5,33 +5,34 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
-import Slide from "./Slide";
+import type { HeroSlide } from "@/types/slide.type";
 
-export type slide = {
-  id: number;
-  title?: string;
-  description: string[];
-  imageUrl: string;
-};
-
-function Carousel({ slides }: { slides: slide[] }) {
+function Carousel({
+  slides,
+  slidesPerView,
+  delay,
+  children,
+}: {
+  slides: HeroSlide[];
+  slidesPerView?: number;
+  delay?: number;
+  children: (el: HeroSlide) => React.ReactNode;
+}) {
   return (
     <Swiper
       modules={[Navigation, Pagination, Autoplay]}
-      slidesPerView={1}
+      slidesPerView={slidesPerView}
       spaceBetween={0}
       navigation
       pagination={{ clickable: true }}
       autoplay={{
-        delay: 6000,
+        delay: delay,
         disableOnInteraction: false,
       }}
       loop
     >
       {slides.map((slide) => (
-        <SwiperSlide key={slide.id}>
-          <Slide {...slide} />
-        </SwiperSlide>
+        <SwiperSlide key={slide.id}>{children(slide)}</SwiperSlide>
       ))}
     </Swiper>
   );

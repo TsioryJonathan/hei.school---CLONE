@@ -1,7 +1,7 @@
-import type { slide } from "./Carousel";
+import type { HeroSlide } from "@/types/slide.type";
 import CTAButton from "./CTAButton";
 
-export default function Slide({ id, title, description, imageUrl }: slide) {
+export default function Slide({ id, title, description, imageUrl }: HeroSlide) {
   return (
     <div
       className={`flex flex-col items-center relative w-screen h-[85vh] md:h-screen`}

@@ -141,12 +141,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 9999 !important;
 }
 
 .swiper-button-next:after,
 .swiper-button-prev:after {
   font-size: 30px !important;
   font-weight: 900 !important;
+  z-index: 9999 !important;
 }
 
 .swiper-button-next:hover,
@@ -158,4 +160,20 @@
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
   color: rgba(0, 0, 0, 0.788) !important;
+}
+
+.mySwiper {
+  position: relative !important;
+}
+
+.mySwiper .swiper-button-prev {
+  left: -2rem !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+}
+
+.mySwiper .swiper-button-next {
+  right: -2rem !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
 }
