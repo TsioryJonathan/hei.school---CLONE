@@ -30,8 +30,26 @@ import nextjs from "./next.png";
 import openapi from "./openapi.png";
 import ts from "./TS-150x150.png";
 import aws from "./aws.png";
+import emit from "./logo_emit.png";
+import etech from "./logo-etech.png";
+import kante from "./logo-kante-company-1.png";
+import numer from "./Logo-Numer-vf.png";
+import bpart from "./bp-logo-full-1024x331.webp";
+import nexta from "./LOGO-NEXTA.webp";
+import yif from "./YIF_LOGO_512x512_BL_on_WH-1.webp";
+import yooz from "./Yooz-2023-Logo-2.webp";
+import pn from "./PN_Logo_baseline_color_ENG.png";
 
 export const assets = {
+  emit,
+  pn,
+  kante,
+  nexta,
+  numer,
+  etech,
+  bpart,
+  yif,
+  yooz,
   logo,
   banner1,
   banner2,

@@ -4,6 +4,7 @@ import Domains from "./components/Domains";
 import Hero from "./components/Hero";
 import JobProspects from "./components/JobProspects";
 import Navbar from "./components/Navbar";
+import Partner from "./components/Partner";
 import Program from "./components/Program";
 import Team from "./components/Team";
 import Technologies from "./components/Technologies";
@@ -21,6 +22,7 @@ function App() {
       <Admission />
       <Program />
       <Technologies />
+      <Partner />
     </div>
   );
 }
