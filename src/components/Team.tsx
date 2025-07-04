@@ -17,7 +17,6 @@ export default function Team() {
   );
   return (
     <Section
-      bgColor="#6586c7"
       title="L'équipe pédagogique"
       description="Notre équipe pédagogique se compose d’experts nationaux et
           internationaux de l’informatique, de la cybersécurité, de
@@ -26,7 +25,7 @@ export default function Team() {
           sommes conscients que cette équipe est la pierre angulaire de
           l’employabilité de nos étudiants, elle a été soigneusement
           sélectionnée."
-      className="text-white md:px-30! py-15"
+      className="text-white md:px-30! py-15 bg-[#6586c7]"
     >
       <div className="w-full px-10">
         <Carousel

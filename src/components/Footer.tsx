@@ -39,7 +39,7 @@ export default function Footer() {
 
           <ul className="flex flex-col gap-4">
             {navLinks.map((link) => (
-              <li>
+              <li key={link.label}>
                 <a
                   href={link.href}
                   className={`hover:text-secondary transition-colors duration-100 ease-in-out ${
@@ -59,8 +59,8 @@ export default function Footer() {
           <h2 className="text-xl font-bold text-white">Réseaux Sociaux</h2>
 
           <div className="flex gap-4">
-            {socialMedia.map(({ icon, href }) => (
-              <a href={href} className="rounded-full bg-secondary p-3">
+            {socialMedia.map(({ icon, href }, i) => (
+              <a href={href} className="rounded-full bg-secondary p-3" key={i}>
                 {icon}
               </a>
             ))}

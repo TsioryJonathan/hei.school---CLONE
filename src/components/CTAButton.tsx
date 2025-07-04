@@ -20,6 +20,7 @@ export default function CTAButton() {
     <div className="flex flex-col md:flex-row justify-between md:w-full mt-10 gap-4">
       {buttonContent.map(({ label, href }, id) => (
         <CustomButton
+          key={id}
           className={`
             md:py-7 py-6 font-semibold px-2 text-md rounded-[4px] md:text-[20px]! md:px-5 md:min-w-[230px]
             ${

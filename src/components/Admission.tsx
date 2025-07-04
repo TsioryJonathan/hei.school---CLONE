@@ -9,8 +9,8 @@ export default function Admission() {
       description="Ouverte aux bacheliers de toutes les séries, l’admission chez HEI se
           fait par test de niveau : une épreuve de français niveau B2 et d’une
           épreuve de mathématiques niveau Terminale D."
-      bgColor="#6586c7"
-      className="text-white py-15"
+      bgColor=""
+      className="text-white py-15 bg-[#6586c7]"
     >
       <StepGraph />
 

@@ -7,7 +7,7 @@ export default function TeamCard({
   location,
 }: teamType) {
   return (
-    <div className="flex flex-col items-center justify-start w-[333px] h-[385px] gap-5 p-5 rounded-xl bg-white">
+    <div className="flex flex-col items-center justify-start w-[333px] h-[385px] gap-5 p-5 rounded-xl bg-white pointer-events-none">
       <div className="flex flex-col gap-4 items-center text-primary">
         <img
           src={imageUrl}
