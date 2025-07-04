@@ -17,7 +17,7 @@ export default function Partner() {
               key={name}
               src={logo}
               alt={name}
-              className="w-40 h-40 object-contain"
+              className="w-30 h-30 object-contain"
             />
           </a>
         ))}

@@ -10,6 +10,15 @@
   font-family: "Poppins", sans-serif;
 }
 
+p {
+  font-family: Helvetica, sans-serif !important;
+  font-size: 17px;
+}
+
+.font-helvetica {
+  font-family: Helvetica, sans-serif !important;
+}
+
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);

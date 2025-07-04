@@ -31,7 +31,7 @@ export default function CTAButton() {
                 : "bg-primary text-white hover:bg-primary/90 hover:text-white"
             }`}
         >
-          <a href={href}>{label}</a>
+          <a href={href} className="font-helvetica">{label}</a>
         </CustomButton>
       ))}
     </div>

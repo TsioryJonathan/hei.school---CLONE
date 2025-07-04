@@ -14,7 +14,7 @@ export default function Section({
   console.log(bgColor);
   return (
     <section
-      className={`w-screen min-h-screen justify-center items-center px-10 md:px-30 flex flex-col gap-10 bg-[${bgColor}] ${className}`}
+      className={`w-screen min-h-screen justify-center items-center px-10 md:px-35 flex flex-col gap-10 bg-[${bgColor}] ${className}`}
     >
       <div className="flex flex-col gap-10 items-center justify-center">
         <h2 className="heading text-[35px] md:text-[50px] font-semibold text-center">

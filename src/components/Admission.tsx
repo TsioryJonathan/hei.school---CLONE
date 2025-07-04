@@ -16,11 +16,11 @@ export default function Admission() {
 
       <div className="flex justify-center items-center gap-10">
         <Button className="bg-transparent border-white border-2 text-white rounded-xs text-sm md:text-xl hover:border-primary hover:bg-primary py-6 md:py-7">
-          <a href="/inscription">Inscrivez-vous ici</a>
+          <a href="/inscription" className="font-helvetica">Inscrivez-vous ici</a>
         </Button>
 
         <Button className="bg-primary text-white rounded-xs text-sm md:text-xl hover:border-primary hover:bg-white hover:text-primary py-6 md:py-7">
-          <a href="/">Resultat concours</a>
+          <a href="/" className="font-helvetica">Resultat concours</a>
         </Button>
       </div>
     </Section>

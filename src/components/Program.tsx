@@ -20,7 +20,7 @@ export default function Program() {
             Master en Informatique reconnu par le MESupRes de Madagascar.
           </p>
 
-          <Button className="cursor-pointer bg-white border-2 border-primary rounded-xs text-primary hover:bg-primary hover:text-white transition-colors duration-300 text-xl font-semibold px-3 py-6">
+          <Button className="cursor-pointer bg-white border-2 border-primary rounded-xs text-primary hover:bg-primary hover:text-white transition-colors duration-300 text-xl font-semibold px-3 py-6 font-helvetica">
             Notre programme
           </Button>
         </div>
@@ -38,7 +38,7 @@ export default function Program() {
             className="flex flex-col items-start py-10 px-5 bg-[#faf0d6] rounded-xl gap-4"
           >
             <h3 className="text-5xl font-bold text-secondary">25%</h3>
-            <p className="text-primary text-xl font-semibold">{item}</p>
+            <p className="text-primary text-[24px]! font-semibold">{item}</p>
           </div>
         ))}
       </div>

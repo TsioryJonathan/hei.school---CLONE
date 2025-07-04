@@ -22,7 +22,7 @@ export default function Slide({ title, description, imageUrl }: HeroSlide) {
           {description.map((text, index) => (
             <p
               key={index}
-              className="text-white text-sm md:text-xl md:font-normal font-light text-center text-shadow-lg"
+              className="text-white text-sm md:text-[22px]! md:font-normal font-light text-center text-shadow-lg"
             >
               {text}
             </p>
