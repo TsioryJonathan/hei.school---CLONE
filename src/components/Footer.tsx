@@ -1,5 +1,5 @@
 import navLinks from "@/constants/navLinks";
-import { socialMedia } from "@/data/socialMedia";
+import { socialMedia } from "@/constants/socialMedia";
 import { assets } from "@/assets/images/assets";
 
 export default function Footer() {

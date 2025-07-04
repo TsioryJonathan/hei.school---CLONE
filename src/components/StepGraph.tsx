@@ -1,4 +1,4 @@
-import { admissionStep } from "@/data/admissionStep";
+import { admissionStep } from "@/constants/admissionStep";
 import StepCard from "./StepCard";
 
 export default function StepGraph() {

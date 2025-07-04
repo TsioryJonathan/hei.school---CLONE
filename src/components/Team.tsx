@@ -1,4 +1,4 @@
-import { teamData } from "@/data/team";
+import { teamData } from "@/constants/team";
 import {
   Carousel,
   CarouselContent,

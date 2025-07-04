@@ -1,4 +1,4 @@
-import { partners } from "@/data/partner";
+import { partners } from "@/constants/partner";
 import Section from "./Section";
 
 export default function Partner() {

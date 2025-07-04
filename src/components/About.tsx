@@ -1,4 +1,4 @@
-import { aboutData } from "@/data/about";
+import { aboutData } from "@/constants/about";
 import { assets } from "@/assets/images/assets";
 import AboutCard from "./AboutCard";
 

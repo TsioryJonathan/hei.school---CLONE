@@ -1,4 +1,4 @@
-import { domains } from "@/data/domains";
+import { domains } from "@/constants/domains";
 import DomainCard from "./DomainCard";
 import Section from "./Section";
 
