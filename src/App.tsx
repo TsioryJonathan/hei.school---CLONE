@@ -9,10 +9,12 @@ import Partner from "./components/Partner";
 import Program from "./components/Program";
 import Team from "./components/Team";
 import Technologies from "./components/Technologies";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
     <div className="overflow-x-hidden h-fit">
+      <Analytics />
       <Navbar />
 
       <Hero />
