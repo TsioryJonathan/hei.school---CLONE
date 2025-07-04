@@ -35,7 +35,7 @@ function Navbar() {
 
         {/* Mobile nav */}
         <nav
-          className={`fixed top-0 inset-y-0 left-0 w-1/2 bg-primary transform transition-transform 
+          className={`fixed top-0 inset-y-0 left-0 w-[75%] bg-primary transform transition-transform 
             ${isOpen ? "translate-x-0" : "-translate-x-full"} z-50`}
         >
           <ul className="flex flex-col items-start justify-center gap-10 text-xl mt-25 px-10">
